@@ -19,7 +19,7 @@ import codecs
 #ask user for inputs
 text = input("text please: ")
 method = input("choose encode or decode: ")
-encoding_type = input("choose an encoding type like base64, ascii, hex, etc : ")
+encoding_type = input("choose an encoding type like base64, bz2, hex, quopri, uu, zip : ")
 
 #transform text to bytes
 str_to_bytes = text.encode()
